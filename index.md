@@ -1,6 +1,6 @@
 # Hi, I’m Keith
 
-**Data Analyst | GIS & Spatial Analytics **
+Data Analyst | GIS & Spatial Analytics 
 
 I analyze data to support evidence-based decision-making.
 My work combines statistical analysis, GIS, and visualization to uncover patterns,
