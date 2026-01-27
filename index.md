@@ -1,5 +1,3 @@
-# Hi, I’m Keith
-
 Data Analyst | GIS & Spatial Analytics 
 
 I analyze data to support evidence-based decision-making.
