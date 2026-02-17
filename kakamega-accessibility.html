@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Health Facility Accessibility | Keith Waswa</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+
+<body class="is-preload">
+
+<div id="wrapper">
+
+<header id="header">
+    <a href="index.html" class="logo">Back to Portfolio</a>
+</header>
+
+<div id="main">
+<section class="post">
+
+<header class="major">
+<h1>Health Facility Accessibility Analysis</h1>
+<p>
+Network-based spatial accessibility assessment measuring the time required for residents to reach the nearest health facility under walking and driving conditions. The project identifies underserved populations and supports evidence‑based healthcare planning.
+</p>
+</header>
+
+<h2>Objective</h2>
+<p>
+To quantify inequality in healthcare access by modelling realistic travel time instead of straight‑line distance and identifying priority intervention zones.
+</p>
+
+<h2>Data Sources</h2>
+<ul>
+<li>Health facilities – OpenAfrica</li>
+<li>Road network – OpenStreetMap</li>
+<li>Population distribution – WorldPop</li>
+<li>Administrative boundaries – KEMRI</li>
+</ul>
+
+<h2>Methodology</h2>
+<ul>
+<li>Road network cleaning and topology correction</li>
+<li>Assignment of travel speeds by road class</li>
+<li>Shortest‑path routing to nearest facility</li>
+<li>Isochrone generation for walking and driving scenarios</li>
+<li>Population overlay to compute Underserved Population Index (UPI)</li>
+</ul>
+
+<h2>Underserved Population Index</h2>
+<p>
+UPI represents the proportion of residents located outside both 30‑minute walking and 30‑minute driving service areas. High values indicate populations facing delayed access to healthcare services and priority areas for facility expansion.
+</p>
+<span class="image fit">
+<img src="images/Kakamega-UPI-Layout.png" alt="Underserved Population Index Map">
+</span>
+
+<h2>Walking Accessibility</h2>
+<p>
+Large peripheral settlements exceed the 30‑minute threshold, showing that residents without motorized transport experience limited access to primary healthcare and potential emergency response delays.
+</p>
+<span class="image fit">
+<img src="images/Kakamega_Walking_Accessibility.png" alt="Walking Accessibility Map">
+</span>
+
+<h2>Driving Accessibility</h2>
+<p>
+Motorized travel improves coverage but isolated pockets remain beyond acceptable travel time due to sparse road connectivity and facility distribution.
+</p>
+<span class="image fit">
+<img src="images/Kakamega_Driving_Accessibility1.png" alt="Driving Accessibility Map">
+</span>
+
+<h2>Key Findings</h2>
+<ul>
+<li>Urban centres have near‑complete service coverage</li>
+<li>Peripheral sub‑counties contain most underserved population</li>
+<li>Walking accessibility inequality is significantly higher than driving accessibility</li>
+<li>Road connectivity strongly influences healthcare access</li>
+</ul>
+
+<h2>Impact</h2>
+<p>
+Results support facility siting decisions, ambulance response planning, and rural infrastructure prioritization by highlighting where travel time limits equitable healthcare access.
+</p>
+
+<h2>Tools & Techniques</h2>
+<ul>
+<li>QGIS spatial analysis</li>
+<li>Network routing and isochrone modelling</li>
+<li>Raster‑vector overlay analysis</li>
+<li>Cartographic visualization</li>
+</ul>
+
+</section>
+</div>
+</div>
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
+ 
