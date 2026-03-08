@@ -22,30 +22,42 @@
 <header class="major">
 <h1>Health Facility Accessibility Analysis</h1>
 <p>
-Network-based spatial accessibility assessment measuring the time required for residents to reach the nearest health facility under walking and driving conditions. The project identifies underserved populations and supports evidence‑based healthcare planning.
+
+This project analyzes spatial accessibility to health facilities in Kakamega County using GIS-based network analysis. The study evaluates travel time to the nearest health facility using both driving and walking scenarios and identifies underserved populations using the Underserved Population Index (UPI). The results highlight geographic inequalities in healthcare access and help identify priority areas for infrastructure development
 </p>
 </header>
 
 <h2>Objective</h2>
 <p>
-To quantify inequality in healthcare access by modelling realistic travel time instead of straight‑line distance and identifying priority intervention zones.
-</p>
+To quantify inequality in healthcare access by modelling realistic travel time instead of straight‑line distance and identifying priority intervention zones.This is done by:</p><br>
+<ul>
+<li>Evaluate travel time to the nearest health facility across Kakamega County.</li>
+<li>Identify areas with limited access to healthcare.</li>
+<li>Calculate the Underserved Population Index (UPI) at the sub-county level.</li>
+<li>Support decision-making for healthcare planning and resource allocation.</li>
+</ul>
 
 <h2>Data Sources</h2>
 <ul>
-<li>Health facilities – OpenAfrica</li>
-<li>Road network – OpenStreetMap</li>
+<li>Health facility locations – OpenAfrica</li>
+<li>Road network – OpenStreetMap (OSM)</li>
 <li>Population distribution – WorldPop</li>
 <li>Administrative boundaries – KEMRI</li>
+<li>Routing services – OpenRouteService (ORS)</li>
+
 </ul>
 
 <h2>Methodology</h2>
 <ul>
-<li>Road network cleaning and topology correction</li>
-<li>Assignment of travel speeds by road class</li>
-<li>Shortest‑path routing to nearest facility</li>
-<li>Isochrone generation for walking and driving scenarios</li>
-<li>Population overlay to compute Underserved Population Index (UPI)</li>
+<li>Health facility locations were obtained from OpenAfrica and validated for spatial accuracy.</li>
+<li>The OpenStreetMap road network was downloaded and cleaned to remove topology errors.</li>
+<li>Yhe roads were assigned speeds by class and road network was used to perform network-based accessibility analysis using OpenRouteService.</li>
+<li>Isochrone generation for walking and driving scenarios:<br>
+Isochrones Service areas were generated to estimate driving time accessibility (0–20, 20–30, and 30–60 minutes) to the nearest health facility<br>
+Walking accessibility isochrones Service areas were also created (0–15, 15–30, and 30–45 minutes) to simulate non-motorized travel.</li>
+<li>Population distribution data from WorldPop was intersected with accessibility zones.</li>
+<li>The Underserved Population Index (UPI) was calculated to estimate the proportion of residents located outside both 30-minute driving and walking catchments</li>
+<li>Results were aggregated at the sub-county level to identify spatial disparities in healthcare accessibility</li>
 </ul>
 
 <h2>Underserved Population Index</h2>
