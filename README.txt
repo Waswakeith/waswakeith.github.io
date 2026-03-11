@@ -1,32 +1,43 @@
-Massively by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+Welcome to my Data Analytics portfolio. This repository contains projects demonstrating my skills in data analysis, visualization, and geospatial analysis. The work included here reflects practical applications of data-driven decision making across different domains.
 
+About Me
 
-This is Massively, a text-heavy, article-oriented design built around a huge background
-image (with a new parallax implementation I'm testing) and scroll effects (powered by
-Scrollex). A *slight* departure from all the one-pagers I've been doing lately, but one
-that fulfills a few user requests and makes use of some new techniques I've been wanting
-to try out. Enjoy it :)
+I am a data analyst with interests in data visualization, geospatial analysis, and evidence-based decision making. I use modern data tools to transform raw data into meaningful insights that support planning, research, and policy development.
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+My work focuses on:
 
-(* = not included)
+Data cleaning and preparation
 
-AJ
-aj@lkn.io | @ajlkn
+Exploratory data analysis
 
+Data visualization
 
-Credits:
+Geospatial analysis
 
-	Demo Images:
-		Unsplash (unsplash.com)
+Reporting and dashboards
 
-	Icons:
-		Font Awesome (fontawesome.io)
+Tools & Technologies
 
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+Some of the tools I frequently use include:
+
+SQL
+
+Python (Pandas, NumPy, Matplotlib)
+
+Microsoft Excel
+
+Power BI
+
+Tableau
+
+QGIS
+
+Git & GitHub
+
+Portfolio Projects
+1. Health Facility Accessibility Analysis
+
+This project analyzes access to health facilities using geospatial data. It evaluates travel distance, service coverage, and spatial distribution of facilities.
+
+Tools: QGIS, GeoPackage, spatial analysis
+Output: Maps and accessibility insights for healthcare planning.
